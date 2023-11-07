@@ -1,0 +1,9 @@
+[package]
+name = "modeus-ical-download"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.75"
+thirtyfour = "0.31.0"
+tokio = { version = "1.33.0", features = ["full"] }
